@@ -1,0 +1,33 @@
+<html>
+<style>
+.mySlides {display:none;}
+</style>
+<body style="background-color:black">
+<div>
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/1_Chandigarh_Hotel_Diamond_Inn_Facade.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/2_Chandigarh_Hotel_Diamond_Inn_Reception.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/3_Chandigarh_Hotel_Diamond_Inn_Super_Deluxe_Room.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/4_Chandigarh_Hotel_Diamond_Inn_Corridoor.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/5_Chandigarh_Hotel_Diamond_Inn_Super_Deluxe_Room.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/5a_Chandigarh_Hotel_Diamond_Inn_Super_Deluxe_Room_2.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/6_Chandigarh_Hotel_Diamond_Inn_Corridoor.jpg">
+  <img class="mySlides" src="C:/Users/ashus/Desktop/project/images/9_Chandigarh_Hotel_Diamond_Inn_Lobby.jpg">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

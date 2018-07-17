@@ -1,0 +1,62 @@
+
+*{
+margin:1px;
+padding:5px;
+}
+#forms
+{
+ border:1px solid black;
+width:420px;
+}
+.form
+{
+	background-color:yellow;
+}
+.nav a {
+  float: left;
+  display: block;
+  color:black;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.nav
+{
+ background-color:orange;
+ width:100%;
+}
+.nav a:hover
+{
+	color:white;
+}
+.mySlides {display:none;
+width:100%;}
+.pics4
+{
+ border:1px solid black;
+ padding:5px;
+ background-color:black;
+ width:250px;
+ } 
+ 
+.td{  
+    border: 1px solid;
+    height: 30px; 
+}
+.td {  
+    background: #FAFAFA;
+    text-align: center;
+}        
+tr:nth-child(even) .td { background: #F1F1F1; }           
+tr:nth-child(odd) .td { background: #FEFEFE; }
+
+.td2{  
+    border: 1px solid;
+    height: 30px; 
+}
+.td2 {  
+    background: #FAFAFA;
+    text-align: center;
+}        
+tr:nth-child(even) .td2 { background: #F1F1F1; }           
+tr:nth-child(odd) .td2 { background: #FEFEFE; }
